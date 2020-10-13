@@ -111,7 +111,7 @@ a.active,a:hover{
 
 .player-container svg {
   position: absolute;
-  height: 45%;
+  height: 50%;
   top: 50%;
   left: 50%;
   transform: translate(-51%, -62%) rotate(-90deg);
