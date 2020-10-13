@@ -9,6 +9,22 @@
     <title>Audio App</title>
   </head>
   <body>
+
+    <nav>
+          <input type="checkbox" id="check">
+          <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+          </label>
+          <label class="logo">Meditaiton</label>
+          <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Guide</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+          </ul>
+        </nav>
+
     <div class="app">
       <div class="vid-container">
         <video loop >
@@ -35,6 +51,8 @@
 
                 <h3 class="time-display">0:00</h3>
       </div>
+
+
       <div class="sound-picker">
         <button data-sound="./sounds/rain.mp3" data-video="./video/rain.mp4" ><img src="./svg/rain.svg" alt=""></button>
         <button data-sound="./sounds/beach.mp3" data-video="./video/beach.mp4"><img src="./svg/beach.svg" alt=""></button>
